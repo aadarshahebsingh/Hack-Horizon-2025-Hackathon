@@ -39,17 +39,17 @@ const App = () => {
             <PaitentDashboard/>
 
       {/* <Router>
-           <Routes>
+           <Routes> */}
 
-               <Route path="/" element={<Auth />} />
-                <Route path="/DoctorDashboard" element={<DoctorDashboard />} />
-               <Route path="/patientdashboard" element={<PatientDashboard />} />
+               {/* <Route path="/" element={<Auth />} />
+                <Route path="/DoctorDashboard" element={<DoctorDashboard />} /> */}
+               {/* <Route path="/patientdashboard" element={<PatientDashboard />} /> */}
 
-          </Routes>
-         </Router> */}
-      {/* <DoctorDashboard/> */}
+          {/* </Routes>
+         </Router>  */}
+       {/* <DoctorDashboard/> */}
     </div>
   )
-}
+};
 
 export default App
