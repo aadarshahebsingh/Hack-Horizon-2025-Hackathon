@@ -25,6 +25,7 @@ import React from 'react'
 import Auth from './components/Auth'
 import { useEffect } from "react";
 import DoctorDashboard from './Dashboards/DoctorDashboard'
+import PaitentDashboard from './Dashboards/PaitentDashboard'
 import {SetLocalStorage} from './localStorage/localStorage'
 
 
@@ -35,13 +36,17 @@ const App = () => {
   }, []);
   return (
     <div> 
-      <Router>
+            <PaitentDashboard/>
+
+      {/* <Router>
            <Routes>
+
                <Route path="/" element={<Auth />} />
                 <Route path="/DoctorDashboard" element={<DoctorDashboard />} />
-               {/* <Route path="/patientdashboard" element={<PatientDashboard />} /> */}
+               <Route path="/patientdashboard" element={<PatientDashboard />} />
+
           </Routes>
-         </Router>
+         </Router> */}
       {/* <DoctorDashboard/> */}
     </div>
   )
