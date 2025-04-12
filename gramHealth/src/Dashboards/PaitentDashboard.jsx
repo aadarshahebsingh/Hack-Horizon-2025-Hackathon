@@ -36,13 +36,13 @@ const PatientDashboard = () => {
           />
           <div className="flex items-start justify-between w-full">
             <div>
-                <h2 className="text-xl font-semibold">Emily Watson</h2>
-                <p className="text-gray-500 text-sm">emily.watson@example.com</p>
+                <h2 className="text-xl font-semibold">Hello Stranger</h2>
+                <p className="text-gray-500 text-sm">temp.ex@gmail.com</p>
             </div>
             <div >
-                <button>Medic</button>
                 <button className="text-white rounded-2xl p-4 font-semibold border-2 bg-red-500">SoS</button>
-                <button className="bg-white rounded-2xl p-4 font-semibold border-2 border-green-600">Login As Doctor</button>
+                <button className="bg-white rounded-2xl p-4 font-semibold border-2 border-blue-600">Medic</button>
+                <button className="bg-white rounded-2xl p-4 font-semibold border-2 border-green-600" >Login As Doctor</button>
             </div>
           </div>
         </CardContent>
